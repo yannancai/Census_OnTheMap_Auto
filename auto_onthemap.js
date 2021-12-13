@@ -12,12 +12,13 @@ importButton.click()
 let ringRadio = document.querySelector('#dijit_form_RadioButton_1')
 ringRadio.click()
 let radius = document.querySelector('#dijit_form_TextBox_0')
-radius.value = 1.0
-// let whiteSpace = document.querySelectorAll('.tabLabel')[2]
-// whiteSpace.click()
-radius.focus()
-radius.blur()
+radius.value = '1'
+
+//it doesn't work below//
 let confirmButton = document.querySelector('#id_280')
 confirmButton.click()
 
 
+// var clickEvent  = document.createEvent ('MouseEvents');
+// clickEvent.initEvent ('dblclick', true, true);
+// radius.dispatchEvent (clickEvent);
