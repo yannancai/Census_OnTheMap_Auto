@@ -14,7 +14,7 @@ ringRadio.click()
 let radius = document.querySelector('#dijit_form_TextBox_0')
 radius.value = '1'
 
-//it doesn't work below//
+//it doesn't work below bc the page doesn't know there is an input for radius//
 let confirmButton = document.querySelector('#id_280')
 confirmButton.click()
 
